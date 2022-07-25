@@ -77,11 +77,7 @@ function generatePassword() {
                 result = result + uc;
                 pwdCriteria.pwdLength++;
               }
-              if (numbers === true && pwdCriteria.pwdLength < passwordLength) {
-                var num = pwdCriteria.pwdNumber[Math.floor(Math.random() * 10)];
-                result = result + num;
-                pwdCriteria.pwdLength++;
-              }
+            
             }
           }
         }
