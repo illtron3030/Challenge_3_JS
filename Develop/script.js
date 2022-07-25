@@ -1,3 +1,4 @@
+//Challenge 3 Generating Password with JS
 var generateBtn = document.querySelector("#generate");
 var pwdCriteria = {
   pwdLength: 0,
@@ -71,6 +72,11 @@ function generatePassword() {
                 pwdCriteria.pwdLength++;
               }
 
+              if (upperCase === true && pwdCriteria.pwdLength < passwordLength) {
+                var uc = pwdCriteria.pwdUpperCase[Math.floor(Math.random() * 26)]
+                result = result + uc;
+                pwdCriteria.pwdLength++;
+              }
               if (numbers === true && pwdCriteria.pwdLength < passwordLength) {
                 var num = pwdCriteria.pwdNumber[Math.floor(Math.random() * 10)];
                 result = result + num;
