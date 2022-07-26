@@ -90,7 +90,7 @@ function generatePassword() {
                 pwdCriteria.pwdLength < passwordLength
               ) {
                 var sc =
-                  pwdCriteria.pwdCharacter[Math.floor(Math.random() * 32)];
+                  pwdCriteria.pwdCharacter[Math.floor(Math.random() * 23)];
                 result = result + sc;
                 pwdCriteria.pwdLength++;
               }
