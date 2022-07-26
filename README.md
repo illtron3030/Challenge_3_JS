@@ -6,9 +6,8 @@ Third Assignment
 
 ## Description
 
-    The purpose of this challenge was to make a portfolio website using advanced CSS that we have learned in class.  This page had some complex CSS but using tools like Flexbox made it much more possible.
+    The purpose of this challenge was to write JS code to allow a client to generate a password given certain parameters.
 
-## Table of Contents
 
 ## Installation
 
@@ -16,7 +15,7 @@ Access code on github and run the website on a browser.
 
 ## Usage
 
-View and inspect site to see the HTML and CSS that I have learned thus far.
+Allows client to generate a random password given certain inputs.
 
 ## Credits
 
