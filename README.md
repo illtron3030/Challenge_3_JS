@@ -6,7 +6,7 @@ Third Assignment
 
 ## Description
 
-    The purpose of this challenge was to write JS code to allow a client to generate a password given certain parameters.
+The purpose of this challenge was to write JS code to allow a client to generate a password given certain parameters.
 
 
 ## Installation
