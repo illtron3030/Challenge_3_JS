@@ -100,13 +100,18 @@ function generatePassword() {
                 result = result + uc;
                 pwdCriteria.pwdLength++;
               }
+              if (numbers === true && pwdCriteria.pwdLength < passwordLength) {
+                var num = pwdCriteria.pwdNumber[Math.floor(Math.random() * 10)]
+                result = result + num;
+                pwdCriteria.pwdLength++;
             }
           }
         }
       }
     }
-
-    return result;
+  }
+    
+  return result;
     function showPrompts() {
       lowerCase = confirm ("Do you want to use lower case letters?");
       upperCase = confirm ("Do you want to use upper case letters?");
